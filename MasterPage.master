@@ -1,0 +1,286 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Master.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            height: 658px;
+        }
+        .style3
+        {
+            width: 272px;
+            height: 180px;
+        }
+        .style4
+        {
+            height: 180px;
+        }
+        .style6
+        {
+        }
+        .style7
+        {
+            width: 1012px;
+            height: 45px;
+        }
+        .style8
+        {
+            width: 272px;
+            height: 49px;
+        }
+        .style12
+        {
+            width: 272px;
+            height: 496px;
+        }
+        .style13
+        {
+            width: 272px;
+            height: 28px;
+        }
+        .style14
+        {
+            text-align: center;
+        }
+        .style15
+        {
+            width: 100%;
+            height: 812px;
+        }
+        .style16
+        {
+            height: 38px;
+        }
+        .style17
+        {
+        }
+        .style19
+        {
+            width: 658px;
+            height: 218px;
+        }
+        .style20
+        {
+            height: 218px;
+        }
+        .style24
+        {
+            color: #000000;
+        }
+        .style25
+        {
+            text-align: center;
+            color: #000000;
+            font-size: xx-large;
+        }
+        .style26
+        {
+            color: #000000;
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="master">
+       
+        <table class="style1">
+            <tr>
+                <td class="style3">
+                    <asp:Image ID="Image1" runat="server" Height="235px" Width="271px" 
+                        
+                        ImageUrl="~/Image/hospital-logo-template-hospital-logo-template-117487677.jpg" />
+                </td>
+                <td class="style4">
+                    <asp:Image ID="Image2" runat="server" Height="222px" Width="1018px" 
+                        ImageUrl="~/Image/20120829042759studentoftheyearbuilding-770x480.jpg" />
+                </td>
+            </tr>
+            <tr>
+                <td class="style7">
+                 <ul>
+              <li><a href="master.aspx">Home</a></li>
+              <li><a href="">Staff</a>
+
+                    <ul><li><a href="Newst.aspx">New Patient</a></li>
+                        <li><a href="Modst.aspx">Search Patient</a></li>
+                        <li><a href="Fee.aspx">Fee</a></li>
+                        
+                        </ul>                   </li>
+               
+                     <li><a href="">Facilities</a>
+                         <ul>
+                             <li><a href="Equip.aspx">Equipment</a></li>
+                             <li><a href="labtest.aspx">Lab Test</a></li>
+                             <li><a href="Robotics.aspx">Robotics</a></li>
+                         </ul>
+                     </li>
+                     <li><a href="Harassment.aspx">Anti Sexual Policy</a></li>
+                     <li><a href="Cont.aspx">Contact Us</a></li>
+                     <li><a href="Appo.aspx">Appointment</a><br />
+                     </li>
+
+                     <li>
+                         <h1>
+                             <span lang="EN-IN"><a href="Recruitment Disclaimer.aspx">Recruitment Disclaimer</a><o:p></o:p></span></h1>
+                     </li>
+
+             </ul>
+             
+             </td>
+                <td class="style6" rowspan="4">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <table class="style15">
+                            <tr>
+                                <td class="style16" colspan="2" 
+                                    style="background-image: url('/Main6th/Image/blue-abstract-background-square-vector-4717807.jpg')">
+                                    <h1 class="style25">
+                                        Our Hospital</h1>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="style19" 
+                                    style="background-image: url('/Main6th/Image/blue-abstract-background-square-vector-4717807.jpg')">
+                                    <p>
+                                        <span lang="EN-IN">Mercer Hospitals has been a pioneer in bringing worldclass 
+                                        healthcare to the doorsteps of every Indian. Over its 36 year long journey, 
+                                        Mercer Hospitals has established landmarks which are difficult to emulate across 
+                                        the entire country.<o:p></o:p></span></p>
+                                    <p>
+                                        <span lang="EN-IN">As a part of the Mercer Hospitals Group, Mercer Hospitals 
+                                        International Limited, Ahmedabad (AHIL) is one of the iconic and most preferred 
+                                        centres for medical care in the Gujarat region. The hospital offers advanced 
+                                        clinical services through 6 Centres of Excellence and other allied branches 
+                                        including all specialities and sub-specialities. The Hospital offers state of 
+                                        art technology and latest equipments to enhance the medical care to each patient 
+                                        visiting the Hospital. With a focus on Emergency care and Trauma medicine, the 
+                                        hospital offers 24x7 availability of dedicated doctors, trained staff, 
+                                        diagnostic services and is always ready to receive patients referred from all 
+                                        parts of the state.<o:p></o:p></span></p>
+                                    <p>
+                                        <span lang="EN-IN">Mercer Hospitals, Ahmedabad has set a cornerstone for 
+                                        healthcare infrastructure in Gujarat with its world class benchmark for quality 
+                                        standards in healthcare service deliveries. The 289 bedded hospital offers state 
+                                        of art infrastructure with 87 Intensive Care beds, 2 Cath Labs, Modular 
+                                        Operation Theatres, 24x7 Blood Bank, dedicated Endoscopy Suite etc. The hospital 
+                                        offers a 24x7 Radiology Department with state of art 128 slice CT scan, MRI 
+                                        scan, Colour Doppler, advance Ultrasound Scan, X-ray, Mammography and 
+                                        Fluoroscopy. The Laboratory department at AHIL is not only accredited by NABL 
+                                        but also offers in-house investigation in Biochemistry, Haematology, 
+                                        Microbiology, Histopathology, Immunology, Immune Chemistry and Molecular 
+                                        diagnostics. The department is constantly adding newer technologies to bring the 
+                                        best in class diagnostics tools to the patients.<o:p></o:p></span></p>
+                                    <p>
+                                        <span lang="EN-IN">The hospital on an average handles more than 18,000 patients 
+                                        in the Outpatient Department besides performing 600 Surgeries and treating more 
+                                        than 1800 patients on IP basis.<o:p></o:p></span></p>
+                                    <p>
+                                        <span lang="EN-IN">Mercer Hospitals, Ahmedabad has been able to establish a 
+                                        robust and comprehensive Organ Transplant program with more than 150 solid organ 
+                                        transplants including Renal and Liver transplants being conducted at the 
+                                        hospital. The hospital offers dedicated transplant ICUs managed by 
+                                        multi-disciplinary team of Physicians, Surgeons and Counsellors right from the 
+                                        preparation of the donor and recipient to the time of transplant surgery, 
+                                        recovery and post transplant care.<o:p></o:p></span></p>
+                                    <p>
+                                        <span lang="EN-IN">The hospital offers state of the art territory care treatment 
+                                        in Cardiac Sciences with one of the largest Cardiology teams in the region. The 
+                                        centre offers all kinds of interventional and non-interventional procedures for 
+                                        treatment of all cardiac diseases. The hospital also offers wide range of Neuro 
+                                        Interventional procedures for better recovery in stroke patients. The Centres of 
+                                        Excellence in Neuro Sciences offers advanced surgical procedures for epilepsy 
+                                        surgeries etc as well.<o:p></o:p></span></p>
+                                </td>
+                                <td class="style20">
+                                    <asp:Image ID="Image3" runat="server" Height="367px" 
+                                        ImageUrl="~/Image/jammu-gets-first-exclusive-super-speciality-cancer-hospital.jpg" 
+                                        Width="350px" />
+                                    <br />
+                                    <asp:Image ID="Image4" runat="server" Height="451px" 
+                                        ImageUrl="~/Image/302257.jpg" Width="352px" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="style17" colspan="2" 
+                                    style="background-image: url('/Main6th/Image/blue-abstract-background-square-vector-4717807.jpg')">
+                                    <h2 class="style26">
+                                        Highlights</h2>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="style24" colspan="2" 
+                                    style="background-image: url('/Main6th/Image/blue-abstract-background-square-vector-4717807.jpg')">
+                                    <br />
+                                    <p class="MsoNormal">
+                                        <span>Featuring the very latest technology, much of it not available anywhere 
+                                        else in the region, the stunning 550-bed multi-specialty hospital with over 50 
+                                        specialties and super-specialties and 12 Centres of Excellence, covers the 
+                                        entire spectrum of health from illness to wellness.<o:p></o:p></span></p>
+                                    <p class="MsoNormal">
+                                        <span>The Centres of Excellence for Heart, Critical Care, Neurosciences, Cancer, 
+                                        Emergency, Orthopaedics, Gynaecology, ENT, Transplants, Gastroenterology, 
+                                        Pulmonology and Colorectal at Mercer Hospitals continue to serve the community 
+                                        by providing the highest quality of personalised patient care. Apart from 
+                                        patient care, each of these Centres of Excellence spend significant time in 
+                                        training and research, essentially aimed at preventing disease and improving 
+                                        outcomes when disease does occur.<o:p></o:p></span></p>
+                                    <p class="MsoNormal">
+                                        <span>Most of the specialist consultant doctors at the Mercer Hospitals have 
+                                        globally recognised experience and expertise to treat innumerable diseases and 
+                                        conditions.<o:p></o:p></span></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="style8">
+                    <asp:ImageButton ID="ImageButton1" runat="server" Height="52px" Width="212px" 
+                        ImageUrl="~/Image/login-button-png-4.jpg" CssClass="style24" />
+                        <a href="Login.aspx" class="style24"></a>
+                </td>
+            </tr>
+            <tr>
+                <td class="style13">
+                <ul>
+                   <li><a href="" class="style24">Adminisator</a>
+                            <ul><li><a href="Instaff.aspx" class="style24">New Staff</a></li>
+                            <li><a href="Modstaff.aspx" class="style24">Search Staff</a></li>
+                            <li><a href="SignUp.aspx" class="style24">Sign UP</a></li></ul></li></ul>
+                       <ul>
+                   <li><a href="" class="style24">Data Grid</a>
+                            <ul><li><a href="Gridstaff.aspx" class="style24">Staff</a></li>
+                            <li><a href="Gridst.aspx" class="style24">Student</a></li>
+                            <li><a href="GridNewacc.aspx" class="style24">New Account</a></li>
+                             <li><a href="GridCont.aspx" class="style24">Contact US</a></li>
+                            <li><a href="GFee.aspx" class="style24">Fee</a>
+                            
+                            </li></ul></li>
+                  </ul>     
+                            
+                            
+                            </td>
+            </tr>
+            <tr>
+                <td class="style12">
+                    </td>
+            </tr>
+            <tr>
+                <td class="style14">
+                    &nbsp;</td>
+            </tr>
+        </table>
+       
+    </div>
+    </form>
+</body>
+</html>

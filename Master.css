@@ -1,0 +1,57 @@
+﻿body {
+}
+*
+{
+    padding:0px;
+    font-size:large;
+    color: #000000;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    }
+#master ul
+{list-style:none;
+    width: 270px;
+}
+#master ul li
+{
+    background-color: Lime;
+    border: solid 2px white;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 35px;
+    
+    position: relative;
+}
+   #master ul li a
+   {
+       text-decoration:none;
+       color:Black;
+       display:block;
+    
+   }
+  #master ul li :hover
+  {
+      background-color:red;
+      color:White;
+  }
+      
+      #master ul ul
+      {
+          position:absolute;
+          display:none;
+          left:100%;
+          top:-2%;
+    
+      }
+      #master ul  li>ul li
+      {
+      background-color:red;
+      color:Orange;
+      border:solid 1px solid;
+      }
+          #master ul li:hover>ul
+          {
+              display:block;
+          }
